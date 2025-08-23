@@ -1,0 +1,45 @@
+{
+  "java_preferred_type": "midasnetwork",
+  "bootstrap_sha": "",
+  "bootstrap_url": "",
+  "launcher": {
+    "run_args": "-noverify -Dcom.sun.net.ssl.checkRevocation=false -Djna.encoding=UTF-8 -Dfile.encoding=UTF-8 -Dlog4j2.formatMsgNoLookups=true -Xmx%max%M -Xms1024M -Djava.net.preferIPv4Stack=true %args%"
+  },
+  "discordrpc": {
+    "logoTitle": "Midas Client",
+    "smallImageText": "%player_name%"
+  },
+  "versionControl": {
+    "windows": {
+      "checksum": ""
+    }
+  },
+  "downloads": {
+    "launcher": {
+      "url": "",
+      "sha1": "",
+      "size": "null"
+    },
+    "client": {
+      "url": "",
+      "sha1": "",
+      "size": "null",
+      "totalMinecraftVersions": 1
+    },
+    "updater": {
+      "url": "",
+      "sha1": ""
+    },
+    "assets": {
+      "url": ""
+    },
+    "natives": {
+      "url": "",
+      "sha1": ""
+    },
+    "java-x64": {
+      "url": "",
+      "sha1": ""
+    }
+  }
+}
