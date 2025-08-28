@@ -21,8 +21,8 @@
       "size": "null"
     },
     "client": {
-      "url": "",
-      "sha1": "",
+      "url": "https://play.sivasnw.com.tr/client/MidasClient-1.8.9.jar",
+      "sha1": "cafc8797127acfb2e2693b91662d3ab145e18e15",
       "size": "null",
       "totalMinecraftVersions": 1
     },
@@ -31,15 +31,15 @@
       "sha1": ""
     },
     "assets": {
-      "url": ""
+      "url": "https://play.sivasnw.com.tr/assets/natives.zip"
     },
     "natives": {
-      "url": "",
-      "sha1": ""
+      "url": "https://play.sivasnw.com.tr/assets/natives.zip",
+      "sha1": "5faca32c4df5bdb0b2aed22ff54e743541d2c314"
     },
     "java": {
-      "url": "https://launcher.flexmc.com.tr/java/java.zip",
-      "sha1": "c8f566104ed734bd86b9ad1d18351a8eb099b67c"
+      "url": "https://play.sivasnw.com.tr/java/java.zip",
+      "sha1": "432bc1d69c0ca9617925ce44cfc9eb014789f2eb"
     }
   }
 }
