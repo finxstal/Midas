@@ -1,45 +1,31 @@
 {
   "java_preferred_type": "midasnetwork",
-  "bootstrap_sha": "",
-  "bootstrap_url": "",
-  "launcher": {
-    "run_args": "-noverify -Dcom.sun.net.ssl.checkRevocation=false -Djna.encoding=UTF-8 -Dfile.encoding=UTF-8 -Dlog4j2.formatMsgNoLookups=true -Xmx%max%M -Xms1024M -Djava.net.preferIPv4Stack=true %args%"
-  },
-  "discordrpc": {
-    "logoTitle": "Midas Client",
-    "smallImageText": "%player_name%"
+  "version": "1.0.0",
+  "bootVersion": "1.0.0",
+  "java": {
+    "url": "https://play.sivasnw.com.tr/java/java.zip",
+    "sha1": "432bc1d69c0ca9617925ce44cfc9eb014789f2eb"
   },
   "versionControl": {
     "windows": {
       "checksum": ""
     }
   },
+  "javaIntegrity": {
+    "someKey": "someValue"
+  },
   "downloads": {
-    "launcher": {
-      "url": "",
-      "sha1": "",
-      "size": "null"
-    },
     "client": {
       "url": "https://play.sivasnw.com.tr/client/MidasClient-1.8.9.jar",
       "sha1": "cafc8797127acfb2e2693b91662d3ab145e18e15",
       "size": "null",
       "totalMinecraftVersions": 1
-    },
-    "updater": {
-      "url": "",
-      "sha1": ""
-    },
-    "assets": {
-      "url": "https://play.sivasnw.com.tr/assets/natives.zip"
-    },
-    "natives": {
-      "url": "https://play.sivasnw.com.tr/assets/natives.zip",
-      "sha1": "5faca32c4df5bdb0b2aed22ff54e743541d2c314"
-    },
-    "java": {
-      "url": "https://play.sivasnw.com.tr/java/java.zip",
-      "sha1": "432bc1d69c0ca9617925ce44cfc9eb014789f2eb"
     }
-  }
+  },
+  "natives_url": "https://play.sivasnw.com.tr/assets/natives.zip",
+  "assets_url": "https://play.sivasnw.com.tr/assets/natives.zip",
+  "launcher_jar_url": "https://play.sivasnw.com.tr/launcher/MidasLauncher.jar",
+  "launcher_jar_checksum": "abcdef1234567890abcdef1234567890abcdef12",
+  "launcher_path": "launchers/MidasLauncher.jar",
+  "launcher_args": "-noverify -Xmx2G -Xms1G"
 }
